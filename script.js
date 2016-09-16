@@ -8,7 +8,7 @@ function convertFunction() {
 	    //document.getElementById("frm1").submit();
 	    // alert('hello');
 	    var x = document.getElementById("first").value;
-	    alert(x);
+	    //alert(x);
 	    // document.getElementById('namefirst').innerHTML = x;
 	    rot13(x);
 }
