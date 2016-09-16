@@ -58,6 +58,6 @@ function rot13(str) {
 	console.log(arrCode);
 	convertedToCaesar = arrCode.join('');
 	console.log(convertedToCaesar);
-	document.getElementById('namefirst').innerHTML = convertedToCaesar;
+	document.getElementById('converted').innerHTML = convertedToCaesar;
 
 }
