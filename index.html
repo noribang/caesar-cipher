@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html>
+<!--DECLARE ENGLISH AS PRIMARY LANGUAGES-->
+<html lang="en">
+<!--OR DECLARE KOREAN AS PRIMARY LANGUAGES-->
+<!--<html leng="ko">-->
 <head>
 	<title>caesar salad cipher</title>
-
+	<!--PROPER CHARACTER SET-->
+	<meta charset="utf-8">
+	<!--PROPER RENDERING AND ZOOMING-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body onload="">
 	<!--CLASS="TEXT-CENTER" WILL CENTER ALL ELEMENTS NESTED IN DIV-->
 	<div class="container-fluid text-center">
 		<h1>Caesar Cipher Convertor</h1>
-
 		<form id="frm1" action="">
 		  <p>Enter String to be Converted:</p> 
 		  <p><input type="text" name="fname" id="first">
@@ -25,7 +26,11 @@
 		<p id="">Converted to Caesar Cipher: <span id="namefirst"></span></p>
 		<p id="converted"></p>		
 	</div>
-
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--REFER -->
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
